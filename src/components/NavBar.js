@@ -10,17 +10,17 @@ function NavBar() {
                     <NavLink to="/" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest ">
                        Honoly
                     </NavLink>
-                    <NavLink to="/post" className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800 " activeClassName="text-red-100 bg-red-700">
+                    <NavLink to="/post" className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800" activeClassName="text-red-100 bg-red-700">
                       Blog Post
                     </NavLink>
-                    <NavLink to="/project"  className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800 "  activeClassName="text-red-100 bg-red-700">
+                    <NavLink to="/project"  className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"  activeClassName="text-red-100 bg-red-700">
                        Projects
                     </NavLink>
-                    <NavLink to="/about"  className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800 "  activeClassName="text-red-100 bg-red-700">
+                    <NavLink to="/about"  className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"  activeClassName="text-red-100 bg-red-700">
                        About Me!
                     </NavLink>
                 </nav>
-                <div className="inline-flex py-3  px-3 my-6">
+                <div className="inline-flex py-3 px-3 my-6">
                    <SocialIcon url="https://www.linkedin.com/in/fabrod202/" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
                    <SocialIcon url="https://twitter.com/fabrod9" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
                    <SocialIcon url="https://www.instagram.com/fabrodprogrammer/" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
