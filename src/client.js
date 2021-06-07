@@ -5,3 +5,5 @@ export default sanityClient ({
     projectId: "5siazgph",
     dataset: "production"
 })
+
+
